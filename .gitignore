@@ -11,12 +11,6 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -37,5 +31,12 @@
 *.out
 *.app
 
-# debug information files
-*.dwo
+build
+output/*
+.idea
+
+cmake-*
+3rdparty/*
+
+build-*
+CMakeLists.txt.user
